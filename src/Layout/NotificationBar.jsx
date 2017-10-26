@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default () => (
-	<div class="top-notification-wrapper">
-		<div class="top-notification">
-			<Link to="/login" class="top-notification__text">
+	<div className="top-notification-wrapper">
+		<div className="top-notification">
+			<Link to="/login" className="top-notification__text">
 				Guaranteed lowest prices or your money back!
 			</Link>
 		</div>
